@@ -1,0 +1,28 @@
+ /*ESTILOS HACIA LAS CLASES DE LOS TAGS HTML*/
+ .h1 {
+     color: rgb(152, 113, 53);
+ }
+
+ .textoItalicUp {
+    font-style: italic;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #2c57105c;
+
+ }
+
+
+.rotarElemento {
+    
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+
+.rotarElemento:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+    border: 3px solid red;
+}
