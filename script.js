@@ -21,7 +21,7 @@ function saveUser(e){
     }else{
 
         // voy a pintar el mismo mensaje pero de error
-        document.getElementById("mensajeOkError").innerText = "Error al ingresar, no sea weon";
+        document.getElementById("mensajeOkError").innerText = "Error al ingresar, no sea pavito, intente de nuevo";
         document.getElementById("mensajeOkError").style.color = "red";
     }
 }
